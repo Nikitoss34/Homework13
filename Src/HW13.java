@@ -22,7 +22,7 @@ public class HW13 {
                 transferMatrix[j][i] = matrix[i][j];
             }
         }
-        for (int i = 0; i < matrix.length; i++) {
+        for (int i = 0; i < transferMatrix.length; i++) {
             System.out.println(Arrays.toString(transferMatrix[i]));
         }
     }
